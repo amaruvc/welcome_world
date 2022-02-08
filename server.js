@@ -13,10 +13,9 @@ app.get("/crear", (req, res) => {
     if (err) {
       res.send("No se pudo crear el archivo");
     } else {
-      console.log("archivo creado ok");
+      res.send("archivo creado");
     }
   });
-  res.send("Creando el archivo");
 });
 
 //Rutas
