@@ -1,5 +1,17 @@
 {
   "dependencies": {
-    "node": "^17.4.0"
-  }
+    "express": "^4.17.2",
+    "node": "^17.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "name": "welcome_world",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
